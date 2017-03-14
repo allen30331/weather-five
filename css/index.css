@@ -1,0 +1,132 @@
+* {
+	font-family: Roboto, sans-serif;
+}
+
+div#container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.jumbotron {
+	background-image: url('./background1.png');
+	color: white;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #ddffec;
+	color: rgb(81, 176, 118);
+}
+
+.row {
+	margin-bottom: 40px;
+}
+
+.row.data:hover {
+	background-color: #f7f9f9;
+}
+
+td, th {
+	vertical-align: middle !important;
+	text-align: center !important;
+}
+
+.input-group {
+	margin: 20px 0px;	
+}
+
+svg {
+	height: 150px;
+}
+
+td:first-of-type, td:first-of-type > div {
+	height: 200px;
+	width: 250px;
+}
+
+.city-name {
+	font-size: 18px;
+	text-align: center;
+}
+
+.categories, .sub-cat {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.average {
+	text-align: center;
+}
+
+.border {
+	border-bottom: 1px solid #C5FAFF;
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+
+@media only screen and (max-width: 710px) {
+   .categories {
+   		display: none;
+   }
+
+   .sub-cat {
+   		display: show;
+   		text-align: left;
+   }
+
+   p.sub-cat {
+	    margin-top: 50px;
+	    margin-bottom: 25px;
+	}
+
+   .average {
+		text-align: left;
+	}	
+
+	.city-name {
+		font-size: 18px;
+		text-align: left;
+	}
+
+	.jumbotron {
+		background-image: url('./background1.png');
+		color: white;
+		background-size: 50%;
+		background-repeat: no-repeat;
+		background-position: right;
+		background-color: #f4f4f5;
+		color: rgb(81, 176, 118);
+	}
+
+
+}
+
+@media only screen and (min-width: 711px) {
+	.categories {
+   		display: show;
+   		text-align: center;
+   }
+
+	.sub-cat {
+	   	display: none;
+	}
+
+	.col-md-3 {
+    text-align: center;
+	}
+
+
+@media only screen and (max-width: 992px) {
+	.jumbotron {
+		background-image: url('./background1.png');
+		color: white;
+		background-size: 50%;
+		background-repeat: no-repeat;
+		background-position: right;
+		background-color: #f4f4f5;
+		color: rgb(81, 176, 118);
+	}
+
+   
+}
