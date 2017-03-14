@@ -13,7 +13,7 @@ div#container {
 	background-size: 50%;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-color: #ddffec;
+	background-color: #e8f7ff;
 	color: rgb(81, 176, 118);
 }
 
@@ -126,6 +126,19 @@ td:first-of-type, td:first-of-type > div {
 		background-position: right;
 		background-color: #f4f4f5;
 		color: rgb(81, 176, 118);
+	}
+
+   
+}
+
+@media only screen and (max-width: 380px) {
+	h1 {
+		font-size: 1.5rem;
+
+	}
+
+	h4 {
+		font-size: 1rem;
 	}
 
    
