@@ -13,7 +13,7 @@ div#container {
 	background-size: 50%;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-color: #e8f7ff;
+	background-color: #e8f7ff !important;
 	color: rgb(81, 176, 118);
 }
 
@@ -21,8 +21,15 @@ div#container {
 	margin-bottom: 40px;
 }
 
+
 .row.data:hover {
 	background-color: #f7f9f9;
+}
+
+svg {
+    border: 2px solid #C5FAFF;
+    border-radius: 10px;
+    height: 150px;
 }
 
 td, th {
@@ -34,9 +41,7 @@ td, th {
 	margin: 20px 0px;	
 }
 
-svg {
-	height: 150px;
-}
+
 
 td:first-of-type, td:first-of-type > div {
 	height: 200px;
@@ -48,18 +53,25 @@ td:first-of-type, td:first-of-type > div {
 	text-align: center;
 }
 
+.col-md-3.city-name {
+    font-weight: bold;
+    color: grey;
+}
+
 .categories, .sub-cat {
 	text-align: center;
 	font-size: 18px;
 	font-weight: bold;
+	color: #5c5c5c;
 }
 
 .average {
 	text-align: center;
+	color: grey;
 }
 
 .border {
-	border-bottom: 1px solid #C5FAFF;
+	border-bottom: 2px solid #e7e7e7;
     width: 100%;
     margin-bottom: 45px;
 }
@@ -95,7 +107,7 @@ td:first-of-type, td:first-of-type > div {
 		background-size: 50%;
 		background-repeat: no-repeat;
 		background-position: right;
-		background-color: #f4f4f5;
+		background-color: #e8f7ff !important;
 		color: rgb(81, 176, 118);
 	}
 
@@ -124,21 +136,21 @@ td:first-of-type, td:first-of-type > div {
 		background-size: 50%;
 		background-repeat: no-repeat;
 		background-position: right;
-		background-color: #f4f4f5;
+		background-color: #e8f7ff !important;
 		color: rgb(81, 176, 118);
 	}
 
    
 }
 
-@media only screen and (max-width: 380px) {
-	h1 {
-		font-size: 1.5rem;
+@media only screen and (max-width: 400px) {
+	.weather {
+		font-size: 30px;
 
 	}
 
-	h4 {
-		font-size: 1rem;
+	.five {
+		font-size: 17px;
 	}
 
    
