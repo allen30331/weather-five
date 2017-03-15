@@ -15,7 +15,7 @@ Third portfolio project for <a href="https://www.thinkful.com/">Thinkful</a>. <a
 <h3>Launching</h3>
 <ul>
 	<li>npm run dev</li>
-	<li>Then open localhost:8000 in a browser.</li>
+	<li>Then open localhost:8080 in a browser.</li>
 </ul>
 
 <h3>Testing</h3>
