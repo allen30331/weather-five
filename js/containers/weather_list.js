@@ -25,7 +25,7 @@ class WeatherList extends Component {
 			
 			
 		return (
-			<div key={name}>
+			<div className="city-data" key={name}>
 				<div className="row data" >
 					<div className="col-md-3 city-name"><p className="sub-cat">City</p>{name}</div>
 					<div className="col-md-3"><p className="sub-cat">Temperature</p><Chart data={temps} color='orange' units='F' /></div>

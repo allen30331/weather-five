@@ -9,9 +9,11 @@ export default class App extends Component {
     return (
       <div className="app-container">
       	<Header />
-      	<SearchBar />
-      	<Categories />
-      	<WeatherList />
+        <div className="app-body">
+        	<SearchBar />
+        	<Categories />
+        	<WeatherList />
+        </div>
       </div>
     );
   }
