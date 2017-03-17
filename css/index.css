@@ -1,5 +1,5 @@
 * {
-	font-family: Roboto, sans-serif;
+	font-family: Poppins, sans-serif;
 }
 
 
@@ -89,7 +89,7 @@ td:first-of-type, td:first-of-type > div {
 
    .sub-cat {
    		display: show;
-   		text-align: left;
+   		text-align: center;
    }
 
    p.sub-cat {
@@ -98,13 +98,19 @@ td:first-of-type, td:first-of-type > div {
 	}
 
    .average {
-		text-align: left;
+		text-align: center;
 	}	
 
-	.city-name {
+	.col-md-3.city-name {
 		font-size: 18px;
-		text-align: left;
+		text-align: center;
 	}
+
+	.charts {
+    text-align: center;
+	}
+
+
 
 	.jumbotron {
 		background-image: url('./background1.png');
@@ -132,6 +138,14 @@ td:first-of-type, td:first-of-type > div {
 	.col-md-3 {
     	text-align: center;
 	}
+}
+
+@media only screen and (max-width: 766px) {
+	.row.categories {
+    	display: none;
+	}
+
+	
 }
 
 
