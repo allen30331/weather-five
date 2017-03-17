@@ -16,6 +16,6 @@ describe('Header component', function() {
 		const result = renderer.getRenderOutput();
 
 		result.type.should.equal('div');
-		result.props.className.should.equal('jumbotron');
+		result.props.className.should.equal('header-container');
 	});
 });

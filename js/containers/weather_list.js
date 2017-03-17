@@ -23,7 +23,6 @@ class WeatherList extends Component {
 		const {lon, lat} = cityData.city.coord;
 
 			
-			
 		return (
 			<div className="city-data" key={name}>
 				<div className="row data" >
