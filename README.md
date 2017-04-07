@@ -1,4 +1,4 @@
-<h1>Weather 5</h1>
+<!-- <h1>Weather 5</h1>
 
 Third portfolio project for <a href="https://www.thinkful.com/">Thinkful</a>. <a href="https://weather5.herokuapp.com/">Weather 5</a> is a weather forecast app, designed to let users see a 5 day snapshot of the weather in a city. 
 <img src="css/snap_shots.png">
@@ -54,5 +54,16 @@ Third portfolio project for <a href="https://www.thinkful.com/">Thinkful</a>. <a
 <h2>Image Attributions</h2>
 <ul>
 	<li><a href="http://www.freepik.com/free-vector/city-illustration_796650.htm"></a>http://www.freepik.com/free-vector/city-illustration_796650.htm</li>
-</ul>
+</ul> -->
 
+# Weather 5
+
+> [Weather 5](https://weather5.herokuapp.com/) is a weather forecast app, designed to let users see a 5 day snapshot of the weather in a city.
+
+# Getting Started 
+
+## Installing 
+
+*git clone https://github.com/allen30331/weather-five
+*cd weather-five
+*npm install
