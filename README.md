@@ -156,4 +156,4 @@ Continuous integration and deployment with Travis CI</li>
 
 # Screenshot
 
-> [image](./css/images/screenshot.png)
+> ![image](./css/images/screenshot.png)
