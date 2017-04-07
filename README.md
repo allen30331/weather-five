@@ -151,9 +151,17 @@ Continuous integration and deployment with Travis CI</li>
 * React
 * Redux
 * React-Router
+* React-sparklines
 * Mocha
 * Continuous integration and deployment with Travis CI
 
 # Screenshot
 
 > ![image](./css/images/screenshot.png)
+
+# Attributions 
+
+## Images 
+
+* http://www.freepik.com/free-vector
+
