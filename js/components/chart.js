@@ -2,6 +2,9 @@ import _ from 'lodash';
 import React from 'react';
 import {Sparklines, SparklinesLine, SparklinesReferenceLine} from 'react-sparklines';
 
+
+//Takes data from api and gets average value for temp, pressure and humidity.
+//Also injects data into Sparkline chart. 
 function average(data) {
 	return _.round(_.sum(data)/data.length);
 }

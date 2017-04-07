@@ -3,6 +3,8 @@ import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import {fetchWeather} from '../actions/index';
 
+
+//Displays search bar 
 class SearchBar extends Component {
 	
 	componentDidMount() {

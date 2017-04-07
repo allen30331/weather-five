@@ -4,6 +4,8 @@ import WeatherList from '../containers/weather_list';
 import Header from './header';
 import Categories from './categories';
 
+
+//Contains all components 
 export default class App extends Component {
   render() {
     return (

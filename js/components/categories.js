@@ -1,5 +1,6 @@
 import React from 'react';
 
+//Categories for weather 
 export default function Categories() {
 	return (
 		<div className="row categories">

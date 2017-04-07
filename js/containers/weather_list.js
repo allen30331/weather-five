@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import Chart from '../components/chart';
 
 
-
+//Displays charts and values
 class WeatherList extends Component {
 	renderWeather(cityData) {
 		const name = cityData.city.name;

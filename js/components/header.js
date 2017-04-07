@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+//Header component, displays header
 export default function header() {
 	return (
 		<div className="header-container">
