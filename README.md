@@ -64,6 +64,13 @@ Third portfolio project for <a href="https://www.thinkful.com/">Thinkful</a>. <a
 
 ## Installing 
 
-*git clone https://github.com/allen30331/weather-five
-*cd weather-five
-*npm install
+* git clone https://github.com/allen30331/weather-five
+* cd weather-five
+* npm install
+
+
+
+## Launching 
+
+* npm run dev
+* then open localhost:8080 in a browser
