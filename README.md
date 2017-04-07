@@ -112,6 +112,8 @@ Continuous integration and deployment with Travis CI</li>
 	<li><a href="http://www.freepik.com/free-vector/city-illustration_796650.htm"></a>http://www.freepik.com/free-vector/city-illustration_796650.htm</li>
 </ul> -->
 
+![image](https://travis-ci.org/allen30331/weather-five.svg?branch=master)
+
 # Weather 5
 
 > [Weather 5](https://weather5.herokuapp.com/) is a weather forecast app, designed to let users see a 5 day snapshot of the weather in a city.
