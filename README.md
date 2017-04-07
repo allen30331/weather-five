@@ -112,7 +112,7 @@ Continuous integration and deployment with Travis CI</li>
 	<li><a href="http://www.freepik.com/free-vector/city-illustration_796650.htm"></a>http://www.freepik.com/free-vector/city-illustration_796650.htm</li>
 </ul> -->
 
-![image](https://travis-ci.org/allen30331/weather-five.svg?branch=master)
+[![Build Status](https://travis-ci.org/allen30331/weather-five.svg?branch=master)](https://travis-ci.org/allen30331/weather-five)
 
 # Weather 5
 
