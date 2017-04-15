@@ -2,6 +2,7 @@
 	font-family: Poppins, sans-serif;
 }
 
+
 .app-body {
     padding-left: 30px;
     padding-right: 30px;
@@ -13,7 +14,7 @@
 }
 
 .jumbotron {
-	background-image: url('./images/background1.png');
+	background-image: url('background1.png');
 	color: white;
 	background-size: 50%;
 	background-repeat: no-repeat;
@@ -113,7 +114,7 @@ td:first-of-type, td:first-of-type > div {
 
 
 	.jumbotron {
-		background-image: url('./images/background1.png');
+		background-image: url('background1.png');
 		color: white;
 		background-size: 50%;
 		background-repeat: no-repeat;
@@ -151,7 +152,7 @@ td:first-of-type, td:first-of-type > div {
 
 @media only screen and (max-width: 992px) {
 	.jumbotron {
-		background-image: url('./background1.png');
+		background-image: url('background1.png');
 		color: white;
 		background-size: 50%;
 		background-repeat: no-repeat;
