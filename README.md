@@ -45,7 +45,7 @@
 
 # Screenshot
 
-> ![image](./css/images/screenshot.png)
+> ![image](./css/screenshot.png)
 
 # Attributions 
 
